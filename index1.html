@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai3</title>
+</head>
+<body>
+    <h2>Câu 1: Tạo form Đăng ký tài khoản</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng ký tài khoản </b>như bên dưới.</p>
+    <form action="DKTK">
+    <label for="name">Họ tên:</label> <br>
+    <input type="text" placeholder="Ví dụ: levana"><br>
+    <label for="email">Email:</label> <br>
+    <input type="email" name="email" id="email" placeholder="Ví dụ: levana@gmail.com"><br>
+    <label for="password">Mật khẩu:</label> <br>
+    <input type="password"><br><br>
+    <button>Đăng ký</button>
+    </form>
+    <h2>Câu 2: Tạo form Đăng ký chi tiết</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đăng ký chi tiết </b>như bên dưới.</p>
+    <form action="DK">
+    <label for="name">Họ tên:</label> <br>
+    <input type="text"><br>
+    <label for="email">Email:</label><br>
+    <input type="text"><br>
+    <label for="password">Mật khẩu:</label> <br>
+    <input type="text"><br>
+    <label>Xác nhận mật khẩu:</label> <br>
+    <input type="text"><br>
+    <label for="gioitinh">Giới tính:</label><br>
+    <input type="radio" name="gioi tinh" id="nam"><label for="nam">Nam</label><br>
+    <input type="radio" name="gioi tinh" id="nu"><label for="nu">Nữ</label><br>
+    <input type="radio" name="gioi tinh" id="khac"><label for="khac">Khác</label><br>
+    <label for="QG">Quốc Gia:</label><br>
+    <select>
+        <option value="VN">Việt Nam</option>
+        <option value="TL">Thái Lan</option>
+        <option value="NB">Nhật Bản</option>
+    </select><br><br>
+    <button>Đăng ký</button>
+    </form>
+    <h2>Câu 3: Tạo form Đánh giá sản phẩm</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đánh giá sản phẩm </b>như bên dưới.</p>
+    <form action="DG">
+    <label for="TSP">Tên sản phẩm:</label><br>
+    <input type="text"><br>
+    <label for="DG">Đánh giá:</label><br>
+    <input type="radio" name="DG" id="5sao"> <label for="5sao">5 sao</label><br>
+    <input type="radio" name="DG" id="4sao"> <label for="4sao">4 sao</label><br>
+    <input type="radio" name="DG" id="3sao"> <label for="3sao">3 sao</label><br>
+    <input type="radio" name="DG" id="2sao"> <label for="2sao">2 sao</label><br>
+    <input type="radio" name="DG" id="1sao"> <label for="1sao">1 sao</label><br>
+    <label for="BL">Bình luận:</label><br>
+    <textarea name="tinnhan" id="tinnhan" rows="4"></textarea><br><br>
+    <button>Gửi đánh giá</button><br>
+    </form>
+    <h2>Câu 4: Tạo form Liên hệ</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Liên hệ </b>như bên dưới.</p>
+    <form action="LH">
+    <label for="name">Họ tên:</label> <br>
+    <input type="text"><br>
+    <label for="email">Email:</label><br>
+    <input type="text"><br>
+    <label for="ND">Nội dung tin nhắn:</label><br>
+    <textarea name="ND" id="ND" rows="4"></textarea><br><br>
+    <button>Gửi tin nhắn</button>
+    </form>
+    <h2>Câu 5: Tạo form Liên hệ</h2>
+    <p><b>Yêu cầu:</b> Tạo form <b>Đặt phòng khách sạn </b>như bên dưới.</p>
+    <form action="DP">
+    <label for="name">Họ tên:</label> <br>
+    <input type="text"><br>
+    <label for="email">Email:</label><br>
+    <input type="text"><br>
+    <label for="NNP">Ngày nhận phòng:</label><br>
+    <input type="date" name="NNP" id="NNP"><br>
+    <label for="NTP">Ngày trả phòng:</label><br>
+    <input type="date" name="NTP" id="NTP"><br>
+    <label for="LP">Loại Phòng:</label><br>
+    <select name="LP" id="LP">
+        <option value="PT">Phòng thường</option>
+        <option value="PV">Phòng VIP</option>
+        <option value="PGD">Phòng gia đình</option>
+    </select><br>
+    <label for="YC">Yêu cầu đặc biệt:</label><br>
+    <textarea name="YC" id="YC" rows="4"></textarea><br><br>
+    <button>Đặt phòng</button>
+    </form>
+    <h2>Câu 6: Tạo form Tìm kiếm</h2>
+    <form action="TK">
+    <p><b>Yêu cầu:</b> Tạo form <b>Tìm kiếm </b>như bên dưới.</p>
+    <input type="text" placeholder="Nhập từ khóa..."> <button>Tìm kiếm</button>
+    </form>
+</body>
+</html>
